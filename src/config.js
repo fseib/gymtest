@@ -1,24 +1,24 @@
 // Todo el contenido de la landing está acá. Editá estos datos con los de tu gimnasio.
 
 export const gym = {
-  name: 'El Kaiser Gym',
-  tagline: 'El Kaiser Gym',
+  name: 'Forja Gym',
+  tagline: 'Forja Gym',
   description:
     'Entrenamiento guiado en grupos reducidos. Aprendé a ejecutar bien cada técnica, ganá fuerza y movilidad, y entrená sin lesiones.',
-  address: 'Bernardino Rivadavia 321, Temperley, Provincia de Buenos Aires',
+  address: 'Av. Federico Lacroze 3150, Colegiales, CABA',
   // Link de Google Maps para el botón "Cómo llegar" (el mapa embebido se genera solo a partir de `address`)
-  mapsUrl: 'https://maps.app.goo.gl/raBGu3URu7kcd5hW7',
-  phone: '+54 9 11 4186-1001',
-  email: 'hola@ironpulse.com',
-  instagram: 'https://instagram.com/neo.gym.temperley',
-  facebook: 'https://www.facebook.com/neo.gym.5/',
+  mapsUrl: 'https://www.google.com/maps/search/?api=1&query=Av.+Federico+Lacroze+3150,+Colegiales,+CABA',
+  phone: '+54 9 11 5555-0123',
+  email: 'hola@forjagym.com.ar',
+  instagram: 'https://instagram.com/forjagym.colegiales',
+  facebook: 'https://www.facebook.com/forjagym.colegiales',
 }
 
 export const mapEmbedUrl = `https://www.google.com/maps?q=${encodeURIComponent(gym.address)}&output=embed`
 
 export const whatsapp = {
   // Formato internacional, solo números (sin +, espacios ni guiones). Ej. Argentina: 549 + área + número
-  number: '5491141861001',
+  number: '5491155550123',
   defaultMessage: '¡Hola! Quiero más info sobre el gimnasio 💪',
 }
 
